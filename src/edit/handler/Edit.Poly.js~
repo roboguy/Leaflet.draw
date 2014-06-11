@@ -18,7 +18,7 @@ L.Edit.Poly = L.Handler.extend({
 
 	initialize: function (poly, options) {
 		// if touch, switch to touch icon
-		if (L.Browser.touch) {
+		if (L.Browser.touch) { 
 			this.options.icon = this.options.touchIcon;
 		}
 

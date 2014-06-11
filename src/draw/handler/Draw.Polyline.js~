@@ -37,7 +37,7 @@ L.Draw.Polyline = L.Draw.Feature.extend({
 
 	initialize: function (map, options) {
 		// if touch, switch to touch icon
-		if (L.Browser.touch) {
+		if (L.Browser.touch) { 
 			this.options.icon = this.options.touchIcon;
 		}
 

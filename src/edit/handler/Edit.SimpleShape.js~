@@ -154,7 +154,7 @@ L.Edit.SimpleShape = L.Handler.extend({
 	_onTouchStart: function (e) {
 		L.Edit.SimpleShape.prototype._onMarkerDragStart.call(this, e);
 
-		if (typeof(this._getCorners) === 'function') {
+		if (typeof(this._getCorners) === 'function') { 
 			// Save a reference to the opposite point
 			var corners = this._getCorners(),
 				marker = e.target,

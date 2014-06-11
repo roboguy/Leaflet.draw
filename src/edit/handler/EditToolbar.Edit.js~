@@ -261,7 +261,7 @@ L.EditToolbar.Edit = L.Handler.extend({
 		this._tooltip.updatePosition(e.latlng);
 	},
 
-	_onTouchMove: function (e) {
+	_onTouchMove: function (e){
 		var touchEvent = e.originalEvent.changedTouches[0],
 			layerPoint = this._map.mouseEventToLayerPoint(touchEvent),
 			latlng = this._map.layerPointToLatLng(layerPoint);
